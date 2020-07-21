@@ -31,6 +31,7 @@
 * Instances
   * The resource ARN to be backed up
     (Separate by commas.)
+  * You can use the script  in **get-ec2-arn.sh** to convert an EC2 instance ID into an ARN.
 
 * NotificationEmail
   * Email address to be notified in case of backup failure
@@ -64,5 +65,4 @@ Successfully created/updated stack - aws-backup
 ```
 
 
-## License
-MIT
+
