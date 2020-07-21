@@ -64,5 +64,23 @@ Waiting for stack create/update to complete
 Successfully created/updated stack - aws-backup
 ```
 
+## appendix
+
+* get-ec2-arn.sh
+
+CLI Example
+
+```
+ % ./get-ec2-arn.sh -p (Profile) \
+                    -r (Region) \
+                    (instanceid) (instanceid) ...
+```
+
+```
+ % ./get-ec2-arn.sh -p default -r ap-northeast-1 i-094ec94e6a960004b
+arn:aws:ec2:ap-northeast-1:579844370734:instance/i-094ec94e6a960004b
+```
 
 
+## License
+MIT
